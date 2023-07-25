@@ -4,7 +4,7 @@
 
 body {
     background-image: url("/assets/dot.svg");
-    background-position: top calc(52rem - 285vw) left -100vw;
+    background-position: top calc(52rem - 280vw) left -100vw;
     background-repeat: no-repeat;
     background-size: 285vw;
     font-family: Inter, sans-serif;
@@ -99,6 +99,7 @@ nav {
     background: #1f2a37;
     display: flex;
     font-weight: 500;
+    gap: 2rem;
     justify-content: space-between;
     padding: 1rem 1.5rem;
     left: 0;
@@ -138,6 +139,7 @@ header {
     background-size: 20rem;
     background-position: top calc(56vw - 6.25rem) left -4.875rem;
     color: white;
+    margin-bottom: 4rem;
     max-width: 80rem;
     padding: 1.5rem;
 }
@@ -186,6 +188,12 @@ footer address {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+}
+
+@media (min-width: 40rem) {
+    header {
+        background-position: top 18.5rem left -4.875rem;
+    }
 }
 
 @media (min-width: 80rem) {
@@ -613,8 +621,8 @@ footer address {
     content: '';
     display: block;
     height: 80rem;
-    position: absolute;
     left: calc(50% - 40rem);
+    position: absolute;
     width: 80rem;
     z-index: 1;
 }
