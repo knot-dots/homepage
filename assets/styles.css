@@ -441,7 +441,12 @@ footer address {
 }
 
 .project {
+    background-image: url("/assets/detmold-smart-city.svg");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 18rem;
     margin-bottom: 9rem;
+    padding-bottom: 18rem;
 }
 
 .project h2 {
@@ -480,11 +485,12 @@ footer address {
     text-align: right;
 }
 
-.project img {
-    margin: 6rem auto;
-}
-
 @media (min-width: 80rem) {
+    .project {
+        background-position: top 50% right 25%;
+        padding-bottom: 0;
+    }
+
     .project h2 {
         position: relative;
     }
@@ -509,10 +515,6 @@ footer address {
 
     .project p {
         margin-right: 50%;
-    }
-
-    .project img {
-        margin: 9rem auto;
     }
 }
 
