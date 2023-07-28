@@ -260,6 +260,10 @@ footer address {
     }
 }
 
+[id] {
+    scroll-margin-top: 5.5rem;
+}
+
 .nav-primary {
     color: white;
 }
